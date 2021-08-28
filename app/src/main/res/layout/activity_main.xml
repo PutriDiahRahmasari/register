@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintCircleRadius="15dp"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="420dp"
+        android:layout_height="741dp"
+        android:background="#CE6A6A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="364dp"
+        android:layout_height="657dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:background="#CEA89C"
+        app:cardBackgroundColor="#CEA89C"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Pendataan Masyarakat"
+            android:textColor="#FBF8F8"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="40dp"
+            android:text="Indonesia"
+            android:textColor="#FFFDFD"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="248dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/freepik2_768x392" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="299dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            app:cardBackgroundColor="#C4C4C4">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:hint="20dp"
+                android:text="NIK"
+                android:textColor="#090909"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="301dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            app:cardBackgroundColor="#c4c4c4">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:hint="20dp"
+                android:text="NAMA"
+                android:textColor="#090909"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="302dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="355dp"
+            app:cardBackgroundColor="#C4C4C4">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="USERNAME"
+                android:textColor="#0B0B0B"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="301dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="435dp"
+            app:cardBackgroundColor="#C4C4C4">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="PASSWORD"
+                android:textColor="#0E0E0E"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="302dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="512dp"
+            app:cardBackgroundColor="#C4C4C4">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="NO.TELEPON"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="267dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="582dp"
+            app:cardBackgroundColor="#816258">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="15dp"
+                android:hint="20dp"
+                android:text="REGISTER"
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
