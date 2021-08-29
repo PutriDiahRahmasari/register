@@ -7,6 +7,20 @@
     app:layout_constraintCircleRadius="15dp"
     tools:context=".MainActivity">
 
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="-182dp"
+        tools:layout_editor_absoluteY="249dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
     <View
         android:id="@+id/view"
         android:layout_width="420dp"
@@ -15,15 +29,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="44dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
     <androidx.cardview.widget.CardView
         android:layout_width="364dp"
         android:layout_height="657dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="24dp"
         android:background="#CEA89C"
         app:cardBackgroundColor="#CEA89C"
         app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -93,6 +120,7 @@
                 android:textColor="#090909"
                 android:textSize="24sp"
                 android:textStyle="normal" />
+
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
